@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# 模型与数据（不入库）
+checkpoints/
+outputs/
+data/
+*.bin
+*.safetensors
+*.pt
+*.gguf
